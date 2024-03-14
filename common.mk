@@ -75,7 +75,7 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
-    android.hardware.audio@6.0-impl.samsung-sm6375 \
+    android.hardware.audio@6.0-impl.samsung-sm6225 \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.soundtrigger@2.2-impl \
     audio.r_submix.default \
@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.6-service_64.samsung-sm6375 \
+    android.hardware.camera.provider@2.6-service_64.samsung-sm6225 \
     android.hardware.camera.provider@2.4-legacy \
     android.hardware.camera.provider@2.5-legacy \
     camera.device@1.0-impl \
@@ -230,7 +230,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-qcom.sm6375
+    vendor.lineage.livedisplay@2.0-service.samsung-qcom.sm6225
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -377,7 +377,7 @@ PRODUCT_PACKAGES += \
 
 # Touch features
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.samsung_sm6375
+    vendor.lineage.touch@1.0-service.samsung_sm6225
 
 # Trust HAL
 PRODUCT_PACKAGES += \
