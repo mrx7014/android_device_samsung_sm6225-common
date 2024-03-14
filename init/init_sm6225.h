@@ -4,7 +4,7 @@
 #include <string.h>
 
 enum device_variant {
-    VARIANT_A235F = ,
+    VARIANT_A235F = 0,
     VARIANT_A235N,
     VARIANT_A235M,
     VARIANT_MAX
