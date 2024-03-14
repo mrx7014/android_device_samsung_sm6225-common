@@ -37,7 +37,7 @@ void vendor_load_properties()
 {
     const std::string bootloader = android::base::GetProperty("ro.bootloader", "");
     std::string bl_model;
-    if (bootloader.substr(0, MODEL_NAME_LEN_A23) == "A236B") {
+    if (bootloader.substr(0, MODEL_NAME_LEN_A23) == "A235F") {
         bl_model = bootloader.substr(0, MODEL_NAME_LEN_A23);
     } else {
         bl_model = bootloader.substr(0, MODEL_NAME_LEN);
